@@ -1,0 +1,43 @@
+@charset "utf-8";
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	padding:0px;
+	margin:0px;
+}
+.thead_headings {
+	color: #FFF;
+	background-color:#56BA16;
+	text-align:left;
+}
+.Ana_Thomas_row {
+	background-color:#EBEBD8;
+}
+.image {
+	float:left;
+	margin-right:5px;
+}
+.word {
+	float:right;
+	padding-top:5px;
+}
+.wrapper {
+	display:inline-block;
+	clear:both;
+}
+.table {
+	border: 1px groove #CCC;
+	border-right:none;
+	border-top:none;
+}
+tr.border_right td {
+  border-right:1px groove #CCC;
+}
+tr.border_right th {
+  border-right:1px groove #CCC;
+  border-bottom: 1px groove #CCC;
+}
+table.table th {
+	font-weight:normal;
+}
+
